@@ -7,6 +7,8 @@ import ResetPassword from "./ResetPassword";
 import ChangeName from "./ChangeName";
 import Visibility from "./Visibility";
 import Counter from "./Counter";
+import ControlledInput from "./ControlledInput";
+import ControlledForm from "./ControlledForm";
 
 function App() {
   return (
@@ -71,6 +73,18 @@ function App() {
         <li>
           <h2>Counter</h2>
           <Counter />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Controlled input</h2>
+          <ControlledInput />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Controlled form</h2>
+          <ControlledForm />
         </li>
       </ul>
     </div>
