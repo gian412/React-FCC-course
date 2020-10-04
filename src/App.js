@@ -9,6 +9,7 @@ import Visibility from "./Visibility";
 import Counter from "./Counter";
 import ControlledInput from "./ControlledInput";
 import ControlledForm from "./ControlledForm";
+import MyName from "./MyName";
 
 function App() {
   return (
@@ -85,6 +86,15 @@ function App() {
         <li>
           <h2>Controlled form</h2>
           <ControlledForm />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            My name (from stateful component to stateless component through
+            props)
+          </h2>
+          <MyName />
         </li>
       </ul>
     </div>
