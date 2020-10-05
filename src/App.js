@@ -13,6 +13,7 @@ import MyName from "./MyName";
 import MyInput from "./MyInput";
 import EventListener from "./EventListener";
 import OnlyEvensController from "./OnlyEvens";
+import Style from "./Style";
 
 function App() {
   return (
@@ -116,6 +117,12 @@ function App() {
         <li>
           <h2>Only evens re-rendering(using shouldComponentUpdate)</h2>
           <OnlyEvensController />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Styl the components (inline and constant)</h2>
+          <Style />
         </li>
       </ul>
     </div>
