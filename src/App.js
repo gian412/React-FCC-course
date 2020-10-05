@@ -15,6 +15,9 @@ import EventListener from "./EventListener";
 import OnlyEvensController from "./OnlyEvens";
 import Style from "./Style";
 import MagicEightBall from "./MagicEightBall";
+import ShowOnBool from "./ShowOnBool";
+import ShowOnBoolConcise from "./ShowOnBoolConcise";
+import CheckUserAge from "./CheckUserAge";
 
 function App() {
   return (
@@ -130,6 +133,30 @@ function App() {
         <li>
           <h2>Magic Eight Ball (js inside render before JSX)</h2>
           <MagicEightBall />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            Show on bool that change with button click (js inside render before
+            JSX)
+          </h2>
+          <ShowOnBool />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            Show on bool with inline check of the condition (js inside render
+            before JSX)
+          </h2>
+          <ShowOnBoolConcise />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Check User Age (ternary operator)</h2>
+          <CheckUserAge />
         </li>
       </ul>
     </div>
