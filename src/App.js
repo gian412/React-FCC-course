@@ -18,6 +18,7 @@ import MagicEightBall from "./MagicEightBall";
 import ShowOnBool from "./ShowOnBool";
 import ShowOnBoolConcise from "./ShowOnBoolConcise";
 import CheckUserAge from "./CheckUserAge";
+import GameOfChance from "./GameOfChance";
 
 function App() {
   return (
@@ -157,6 +158,12 @@ function App() {
         <li>
           <h2>Check User Age (ternary operator)</h2>
           <CheckUserAge />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>GameOfChance</h2>
+          <GameOfChance />
         </li>
       </ul>
     </div>
