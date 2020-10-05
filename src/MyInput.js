@@ -44,6 +44,7 @@ class GetInput extends React.Component {
 }
 
 class RenderInput extends React.Component {
+  // eslint-disable-next-line
   constructor(props) {
     super(props);
   }

@@ -12,6 +12,7 @@ import ControlledForm from "./ControlledForm";
 import MyName from "./MyName";
 import MyInput from "./MyInput";
 import EventListener from "./EventListener";
+import OnlyEvensController from "./OnlyEvens";
 
 function App() {
   return (
@@ -109,6 +110,12 @@ function App() {
         <li>
           <h2>Read enter key (Using lifecicle and event listeners)</h2>
           <EventListener />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Only evens re-rendering(using shouldComponentUpdate)</h2>
+          <OnlyEvensController />
         </li>
       </ul>
     </div>
