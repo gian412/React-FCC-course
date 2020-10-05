@@ -19,6 +19,7 @@ import ShowOnBool from "./ShowOnBool";
 import ShowOnBoolConcise from "./ShowOnBoolConcise";
 import CheckUserAge from "./CheckUserAge";
 import GameOfChance from "./GameOfChance";
+import GateKeeper from "./GateKeeper";
 
 function App() {
   return (
@@ -162,8 +163,14 @@ function App() {
         <br />
         <hr />
         <li>
-          <h2>GameOfChance</h2>
+          <h2>Game Of Chance</h2>
           <GameOfChance />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Gate Keeper (change css on condition)</h2>
+          <GateKeeper />
         </li>
       </ul>
     </div>
