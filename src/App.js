@@ -14,6 +14,7 @@ import MyInput from "./MyInput";
 import EventListener from "./EventListener";
 import OnlyEvensController from "./OnlyEvens";
 import Style from "./Style";
+import MagicEightBall from "./MagicEightBall";
 
 function App() {
   return (
@@ -121,8 +122,14 @@ function App() {
         <br />
         <hr />
         <li>
-          <h2>Styl the components (inline and constant)</h2>
+          <h2>Style the components (inline and constant)</h2>
           <Style />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Magic Eight Ball (js inside render before JSX)</h2>
+          <MagicEightBall />
         </li>
       </ul>
     </div>
