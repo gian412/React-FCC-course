@@ -23,6 +23,7 @@ import GateKeeper from "./GateKeeper";
 import MyToDoList from "./MyToDoList";
 import Frameworks from "./Frameworks";
 import OnlineUsers from "./OnlineUsers";
+import RenderToString from "./RenderToString";
 
 function App() {
   return (
@@ -197,6 +198,14 @@ function App() {
             criteria)
           </h2>
           <OnlineUsers />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            renderToString(): (Render React on the Server with renderToString())
+          </h2>
+          <RenderToString />
         </li>
       </ul>
     </div>
