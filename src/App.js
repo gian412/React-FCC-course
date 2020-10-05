@@ -20,6 +20,7 @@ import ShowOnBoolConcise from "./ShowOnBoolConcise";
 import CheckUserAge from "./CheckUserAge";
 import GameOfChance from "./GameOfChance";
 import GateKeeper from "./GateKeeper";
+import MyToDoList from "./MyToDoList";
 
 function App() {
   return (
@@ -171,6 +172,14 @@ function App() {
         <li>
           <h2>Gate Keeper (change css on condition)</h2>
           <GateKeeper />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            My To Do List (Use Array.map() to dinamically render elements)
+          </h2>
+          <MyToDoList />
         </li>
       </ul>
     </div>
