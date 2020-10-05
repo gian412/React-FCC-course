@@ -21,6 +21,7 @@ import CheckUserAge from "./CheckUserAge";
 import GameOfChance from "./GameOfChance";
 import GateKeeper from "./GateKeeper";
 import MyToDoList from "./MyToDoList";
+import Frameworks from "./Frameworks";
 
 function App() {
   return (
@@ -180,6 +181,12 @@ function App() {
             My To Do List (Use Array.map() to dinamically render elements)
           </h2>
           <MyToDoList />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Frameworks: (Give sibling elements an unique key attribute)</h2>
+          <Frameworks />
         </li>
       </ul>
     </div>
