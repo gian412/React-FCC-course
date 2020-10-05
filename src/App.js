@@ -22,6 +22,7 @@ import GameOfChance from "./GameOfChance";
 import GateKeeper from "./GateKeeper";
 import MyToDoList from "./MyToDoList";
 import Frameworks from "./Frameworks";
+import OnlineUsers from "./OnlineUsers";
 
 function App() {
   return (
@@ -187,6 +188,15 @@ function App() {
         <li>
           <h2>Frameworks: (Give sibling elements an unique key attribute)</h2>
           <Frameworks />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>
+            Online Users: (Use Array.filter() with Array.map() to render with a
+            criteria)
+          </h2>
+          <OnlineUsers />
         </li>
       </ul>
     </div>
