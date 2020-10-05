@@ -10,6 +10,8 @@ import Counter from "./Counter";
 import ControlledInput from "./ControlledInput";
 import ControlledForm from "./ControlledForm";
 import MyName from "./MyName";
+import MyInput from "./MyInput";
+import EventListener from "./EventListener";
 
 function App() {
   return (
@@ -95,6 +97,18 @@ function App() {
             props)
           </h2>
           <MyName />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>My Input (passing a callback as a props)</h2>
+          <MyInput />
+        </li>
+        <br />
+        <hr />
+        <li>
+          <h2>Read enter key (Using lifecicle and event listeners)</h2>
+          <EventListener />
         </li>
       </ul>
     </div>
